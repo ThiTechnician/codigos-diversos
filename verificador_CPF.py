@@ -1,3 +1,6 @@
+#Thiago Martins
+#https://www.linkedin.com/in/thiago-carvalho-2020/
+
 print("*******************")
 print("VERIFICADOR DE CPF")
 print("*******************\n")
@@ -11,12 +14,14 @@ lista = list(cpf)
 lista_int = []
 j = 0
 
-def conversor():#converte o cpf numa lista de inteiros
+#converte o cpf numa lista de inteiros
+def conversor():
     for i in range(0,11):
         j = int(lista[i])
         lista_int.append(j)
     return lista_int
 
+#soma os algarismos do CPF e verifica de a soma resulta em dois algarismos iguais
 def validador():
     soma = sum(lista_int)
     soma_str = str(soma)
