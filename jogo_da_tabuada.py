@@ -1,5 +1,5 @@
 #criador: Thiago M.C.Medeiros
-#Jogo simples para ajudar decorar a tabuada
+#https://www.linkedin.com/in/thiago-carvalho-2020/
 from random import randint
 
 print("****************")
