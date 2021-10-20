@@ -1,4 +1,4 @@
-#Thiago Martins
+#Thiago M.C. Medeiros
 #https://www.linkedin.com/in/thiago-carvalho-2020/
 
 print("*******************")
