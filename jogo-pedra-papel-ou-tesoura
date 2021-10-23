@@ -1,0 +1,40 @@
+
+
+from random import randint
+
+posicoes = {1:"pedra", 2:"papel", 3:"tesoura"}
+
+def humano():
+    global jogada
+    jogada = input("Digite 'pedra', 'papel' ou 'tesoura':" )
+    return jogada
+
+while True:
+    humano()
+    i = randint(1, 3)
+    pc = posicoes[i]
+    print(pc)
+    if jogada == pc:
+        continue
+    elif jogada == 'pedra':
+        if pc == 'pedra':
+            continue
+        elif pc == 'papel':
+            print("Você perdeu")
+        elif pc == 'tesoura':
+            print("Você ganhou!")
+    elif jogada == 'papel':
+        if pc == 'pedra':
+            print("Você ganhou!")
+        elif pc == 'papel':
+            continue
+        elif pc == 'tesoura':
+            print("Você perdeu")
+    elif jogada == 'tesoura':
+        if pc == 'pedra':
+            print("Você perdeu!")
+        elif pc == 'papel':
+            print("Você ganhou!")
+        elif pc =='tesoura':
+            continue
+
