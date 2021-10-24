@@ -1,3 +1,4 @@
+#versão 1.0
 #criador: Thiago M.C.Medeiros
 #https://www.linkedin.com/in/thiago-carvalho-2020/
 from random import randint
